@@ -5,6 +5,7 @@ import type React from "react"
 import { useRef, useEffect, useState } from "react"
 import { motion, useSpring, AnimatePresence } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 
 // Define types for component props and state
 interface GlitchTextProps {
@@ -453,7 +454,8 @@ const TitanRevealSection: React.FC = () => {
                       challenge it.
                     </motion.p>
 
-                    <motion.div
+                 <Link href="http://estintal-estin-hack-talents-yq6jbn-df8f46-34-31-201-166.traefik.me/">
+                 <motion.div
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{
@@ -501,7 +503,8 @@ const TitanRevealSection: React.FC = () => {
                           repeatType: "reverse",
                         }}
                       />
-                    </motion.div>
+                    </motion.div>                 
+                 </Link>
                   </>
                 )}
               </AnimatePresence>

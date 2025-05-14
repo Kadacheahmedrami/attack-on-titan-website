@@ -354,8 +354,10 @@ export default function Home() {
             </motion.div>
           </motion.div>
 
-
-          <motion.div
+              <Link
+                href="http://estintal-estin-hack-talents-yq6jbn-df8f46-34-31-201-166.traefik.me/"
+                >
+  <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2.3, duration: 0.8 }}
@@ -368,10 +370,14 @@ export default function Home() {
                 boxShadow: "0 0 20px 5px rgba(220,38,38,0.3)",
               }}
             >
+              
               ESTIN TALENTS CTF
             </motion.div>
           </motion.div>
 
+                </Link>
+
+        
         
         </div>
       </section>
@@ -885,7 +891,8 @@ export default function Home() {
               <span className="text-red-600 font-bold">We seriously doubt it.</span>
             </motion.p>
 
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="inline-block">
+           <Link href="http://estintal-estin-hack-talents-yq6jbn-df8f46-34-31-201-166.traefik.me/">
+           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="inline-block">
               <Button
                 variant="destructive"
                 size="lg"
@@ -911,6 +918,7 @@ export default function Home() {
                 />
               </Button>
             </motion.div>
+           </Link>
           </motion.div>
         </div>
       </AnimatedBackgroundSection>
